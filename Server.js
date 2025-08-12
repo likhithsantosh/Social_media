@@ -1,9 +1,9 @@
 import { Inngest } from 'inngest';
-import User from '../model/User.js';
-import Message from '../model/Message.js';
-import Connection from '../model/Connection.js';
-import Story from '../model/Story.js';
-import sendEmail from '../config/nodeMailer.js';
+import User from '/User.js';
+import Message from '/Message.js';
+import Connection from '/Connection.js';
+import Story from '/Story.js';
+import sendEmail from '/nodeMailer.js';
 
 // create a client to send and recieve events
 
