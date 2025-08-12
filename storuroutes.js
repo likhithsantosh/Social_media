@@ -1,7 +1,7 @@
 import express from 'express';
-import {upload} from '../config/multer.js'
-import {protect} from '../middleware/auth.js'
-import {getstories, addstory} from '../controller/storyController.js'
+import {upload} from '/multer.js'
+import {protect} from '/auth.js'
+import {getstories, addstory} from '/storyController.js'
 
 const storyRouter = express.Router();
 
