@@ -3,16 +3,16 @@ import cors from 'cors';
 import 'dotenv/config';
 import { clerkMiddleware } from '@clerk/express';
 import { serve } from 'inngest';
-import connectDB from './config/db.js';
+import connectDB from '/db.js';
 
 // Inngest
 import { inngest, functions } from './inngest/Server.js';
 
 // Routes
-import userRouter from './routes/userroutes.js';
-import postRouter from './routes/postroutes.js';
-import storyRouter from './routes/storuroutes.js';
-import messageRouter from './routes/messageroutes.js';
+import userRouter from '/userroutes.js';
+import postRouter from '/postroutes.js';
+import storyRouter from '/storuroutes.js';
+import messageRouter from '/messageroutes.js';
 
 const app = express();
 
