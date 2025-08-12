@@ -1,8 +1,8 @@
-import imageKit from '../config/imageKit.js';
-import { inngest } from '../inngest/Server.js';
-import Connection from '../model/Connection.js';
-import User from '../model/User.js';
-import Post from '../model/Post.js';
+import imageKit from '/imageKit.js';
+import { inngest } from '/Server.js';
+import Connection from '/Connection.js';
+import User from '/User.js';
+import Post from '/Post.js';
 import fs from 'fs';
 import { clerkClient } from '@clerk/express';
 
