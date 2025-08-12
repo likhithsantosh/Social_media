@@ -1,8 +1,8 @@
 import fs from "fs";
-import imageKit from "../config/imageKit.js";
-import Story from "../model/Story.js";
-import User from "../model/User.js";
-import {inngest } from "../inngest/Server.js"
+import imageKit from "/imageKit.js";
+import Story from "/Story.js";
+import User from "/User.js";
+import {inngest } from "/Server.js"
 
 // add user story
 
