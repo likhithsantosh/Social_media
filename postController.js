@@ -1,7 +1,7 @@
 import fs from 'fs';
-import imageKit from '../config/imageKit.js';
-import Post from '../model/Post.js';
-import User from '../model/User.js';
+import imageKit from '/imageKit.js';
+import Post from '/Post.js';
+import User from '/User.js';
 
 //add post
 export const addpost = async(req,res)=>{
